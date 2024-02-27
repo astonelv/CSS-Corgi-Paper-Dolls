@@ -98,6 +98,9 @@ main {
 .bandana {
     width: 80px;
     transform: rotate(10deg);
+    position: absolute;
+    top: 180px;
+    left: 108px;
 }
 .fixed-corgi {
     margin-right: 1em;
@@ -107,6 +110,9 @@ main {
 }
 .pawprint {
     width: 45px;
+    position: fixed;
+    top: 45px;
+    left: 65px;
 }
 .sticky { 
     overflow: auto;
@@ -135,4 +141,15 @@ main {
     left: 133px;
     top: -10px;
     width: 40px;
+    z-index: 1;
+}
+.funny-glasses {
+    position: relative;
+    left: 213px;
+    bottom: 107px;
+}
+.luna {
+    position: sticky;
+    top: 0;
+    left: 0;
 }
